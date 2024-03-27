@@ -1,0 +1,36 @@
+* {
+  font-family: 'Roboto';
+  margin: 0px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to bottom right,
+    #9796f0 0.5%,
+    #fbc7d4 150%
+  );
+}
+
+.game-box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  padding: 0px;
+  max-width: 1000px;
+}

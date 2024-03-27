@@ -1,0 +1,62 @@
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff30;
+  padding: 8px;
+}
+
+.nav-container {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 30px;
+  flex-basis: 80%;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.score-container {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.emoji-logo {
+  width: 48px;
+}
+
+.emoji-head {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.score-text {
+  font-size: 24px;
+  margin-left: 32px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 760px) {
+  .emoji-logo {
+    width: 24px;
+  }
+
+  .emoji-head {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  .score-text {
+    font-size: 16px;
+    margin-left: 16px;
+    font-weight: 500;
+  }
+}
